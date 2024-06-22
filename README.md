@@ -1,9 +1,14 @@
-# Backend and Frontend Template
 
-Latest version: https://git.chalmers.se/courses/dit342/group-00-web
+### Purpose
 
-This template refers to itself as `group-00-web`. In your project, use your group number in place of `00`.
+The BarberShop Web Application's goal is to provide an effective and user-friendly platform for both consumers and barbers to manage and plan appointments, hence improving the whole experience of scheduling and getting barber services. The system will consist of both backend and frontend components that work seamlessly together to meet the following requirements: 
+ 1. Allow customers to simply browse available time slots and barber services.
+ 2. Set up a notification system to send clients and barbers appointment confirmations, reminders, and updates via email or SMS.
+ 3. Provide the business owner with an admin dashboard to manage barbers, services, and appointments.
+ 4. Allow consumers to choose certain services, such as haircuts, shaves, styling, and so on, and tailor their appointments by selecting preferred barbers and time slots. 
+ 5. Allow consumers to leave evaluations and ratings for barbers from whom they have gotten services.
 
+    
 ## Project Structure
 
 | File        | Purpose           | What you do?  |
@@ -39,10 +44,8 @@ You can also use alternative tools if you know how to configure them (e.g., Fire
 
 ```bash
 # Clone repository
-git clone git@git.chalmers.se:courses/dit342/group-00-web.git
+git clone git@github.com:aslanSolutions/Old-School-Shop.git
 
-# Change into the directory
-cd group-00-web
 
 # Setup backend
 cd server && npm install
@@ -60,15 +63,6 @@ npm run serve
 Open the `server` and `client` in separate VSCode workspaces or open the combined [backend-frontend.code-workspace](./backend-frontend.code-workspace). Otherwise, workspace-specific settings don't work properly.
 
 ## System Definition (MS0)
-
-### Purpose
-
-The BarberShop Web Application's goal is to provide an effective and user-friendly platform for both consumers and barbers to manage and plan appointments, hence improving the whole experience of scheduling and getting barber services. The system will consist of both backend and frontend components that work seamlessly together to meet the following requirements: 
- 1. Allow customers to simply browse available time slots and barber services.
- 2. Set up a notification system to send clients and barbers appointment confirmations, reminders, and updates via email or SMS.
- 3. Provide the business owner with an admin dashboard to manage barbers, services, and appointments.
- 4. Allow consumers to choose certain services, such as haircuts, shaves, styling, and so on, and tailor their appointments by selecting preferred barbers and time slots. 
- 5. Allow consumers to leave evaluations and ratings for barbers from whom they have gotten services. 
 
 ### Pages
 
